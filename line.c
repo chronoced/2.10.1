@@ -6,7 +6,7 @@ int main(){
 	char g;
 	int h=0;
 	g = getchar(); 
-	while(g!='\n'){
+	while(g!='\n' && g!='.'){
 		if(g>='0' && g<='9'){
 			h=h*10+ctoi(g);
 		}
